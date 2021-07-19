@@ -17,6 +17,10 @@
 #para{
     text-align: left;
 }
+#para001{
+    text-align: left;
+    font-size: 75%;
+}
 label{
     color: rgb(255, 0, 0);
 }
