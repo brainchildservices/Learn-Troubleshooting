@@ -14,3 +14,25 @@
     text-align: left;
     width: 100%;
 }
+#para{
+    text-align: left;
+}
+#para001{
+    text-align: left;
+    font-size: 75%;
+}
+label{
+    color: rgb(255, 0, 0);
+}
+#li1{
+    text-align: left;
+    font-size: 75%;
+}
+#label2{
+    font-size: 65%;
+    color: black;
+}
+#leftintropara{
+    font-size: 65%;
+    text-align: left;
+}
