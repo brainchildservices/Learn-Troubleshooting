@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>TROUBLESHOOTING</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section  data-transition="slide" data-background="#FFDAB9" data-background-transition="zoom">
+                    <h3> Do your CSS validation</h3>
+                </section>
+				<section  data-transition="slide" data-background="#FFDAB9"  data-background-transition="zoom">
+                    <ul>
+                        <li>Basically, it is a matter of checking whether your CSS code is well formed and doesn't contain any syntax errors.</li>
+                        <li>A good strategy is to validate your code regularly. One service that can do this is the W3C Markup Validation Service, which allows you to point to your code, and returns a list of errors:</li>
+                    </ul>             
+                </section>
+                <section data-transition="slide" data-background="#FFDAB9"  data-background-transition="zoom">
+                    <img src="image/pic1.png">   
+                    </section>
+                    <section data-transition="slide" data-background="#FFDAB9"  data-background-transition="zoom">
+                        <ul>
+                            <li>CSS has a similar story — you need to check that your property names are spelled correctly, property values are spelled correctly and are valid for the properties they are used on.</li>
+                            <img src="image/pic2.png">   
+                        </ul> 
+                    </section>
+                    <section data-transition="slide" data-background="#FFDAB9"  data-background-transition="zoom">
+                        <ul>
+                        <li><a href = "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS" target="_blank">Learn More</a>. The W3C has a<a href = "https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options" target="_blank"> CSS Validator</a> available too, for this purpose.</li>
+                        <li>for more visit :- </li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS" target="_blank">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS</a></li>
+                        </ul> 
+                    </section>
+                    <section  data-transition="slide" data-background="#FFDAB9"  data-background-transition="zoom">
+                        <h4>task</h4>
+                        <ul>
+                            <li>Validate the CSS file in <a href = "https://github.com/brainchildservices/Troubleshooting" target="_blank"> Troubleshooting Reposittory</a></li>
+                            <li>For Validating a CSS, you Have 3 Options,</li>
+                             <ul>
+                                 <li>Validate by URI:- In this Option you can add a URL for your CSS file</li>
+                                 <li>Validate by File Upload:- In this Option you can upload your CSS file</li>
+                                 <li>Validate by Direct Input:- In this Option you can add text/code content of the CSS</li>
+                             </ul>
+                            <li>Fix the Issues if you Found any.</li>
+                        </ul>             
+                    </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
